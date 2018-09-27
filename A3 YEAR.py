@@ -3,8 +3,8 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
 import time
-
-
+[requires]
+python_full_version = "2.7.15"
 Client = discord.Client()
 client = commands.Bot(command_prefix = "?")
 
